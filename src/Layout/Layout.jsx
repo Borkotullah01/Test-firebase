@@ -3,8 +3,8 @@ import Heeader from "../Components/Heeader";
 
 const Layout = () => {
     return (
-        <div style={{display: "flex", justifyContent: "center", alignItems: "center", width: "1"}}>
-            <div style={{background: "dodgerblue", padding: "50px"}}>
+        <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+            <div style={{padding: "50px", display: "grid", justifyContent: "center", alignItems: "center", textAlign: "center"}}>
             <Heeader></Heeader>
             <Outlet></Outlet>
             </div>
